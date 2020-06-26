@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
 what the hell is this
 
 yes
