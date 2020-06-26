@@ -17,6 +17,12 @@ nav {
     text-align: right;
 }
 
-.current {
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
     color: blue;
+}
+a:hover {
+    color: red;
 }
