@@ -6,10 +6,10 @@ html {
 }
 
 header {
-    font-size: min(40px, 5vw);
     margin: 0;
 }
 header h1 {
+    font-size: min(60px, 5vw);
     margin: 0;
 }
 
@@ -29,14 +29,22 @@ nav {
 a {
     text-decoration: none;
 }
-a:link, a:visited {
+header a:link, header a:visited {
     color: black;
 }
-a:hover {
+header a:hover {
     color: red;
 }
 
+main a {
+    color: rgb(212,169,246);
+}
+main a:hover {
+    color: black;
+}
+
+
 .highlight {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.4);
     margin-left: 10px; 
 }
