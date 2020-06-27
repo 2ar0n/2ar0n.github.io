@@ -5,6 +5,14 @@ html {
     background: linear-gradient(0deg, rgba(212,169,246,1) 0%, rgba(144,144,252,1) 25%, rgba(0,212,255,1) 100%); 
 }
 
+header {
+    font-size: min(40px, 5vw);
+    margin: 0;
+}
+header h1 {
+    margin: 0;
+}
+
 body {
     max-width: 960px;
     margin: auto;
@@ -15,13 +23,14 @@ body {
 nav {
     background: rgba(255, 255, 255, 0.6);
     text-align: right;
+    padding-right: 10px;
 }
 
 a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: blue;
+    color: black;
 }
 a:hover {
     color: red;
