@@ -43,6 +43,14 @@ main a:hover {
     color: black;
 }
 
+main h2 {
+    margin-bottom: 0;
+}
+
+h2 + p {
+    margin: 0;
+    font-style: italic;
+}
 
 .highlight {
     background: rgba(255, 255, 255, 0.4);
