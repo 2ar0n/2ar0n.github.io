@@ -3,18 +3,21 @@ html {
     background-repeat:no-repeat;
     background: rgb(212,169,246);
     background: linear-gradient(0deg, rgba(212,169,246,1) 0%, rgba(144,144,252,1) 25%, rgba(0,212,255,1) 100%); 
-    font-family: "Times New Roman";
+    font-family: "glacial_indifferenceregular", "Times New Roman";
 }
 
 header {
     margin: 0;
 }
 header h1 {
-    font-size: 60px;
+    font-family: "glacial_indifferencebold";
+    font-size: 80px;
     margin: 0;
 }
 
+
 body {
+    font-size: 18px;
     max-width: 960px;
     margin: auto;
 }
@@ -29,9 +32,9 @@ nav {
     background: rgba(255, 255, 255, 0.6);
     text-align: right;
     padding-right: 10px;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
-    bottom: 30px;
+    bottom: 40px;
 }
 
 a {
