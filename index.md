@@ -3,10 +3,6 @@ layout: default
 title: Home 
 ---
 
-what the hell is this
-
-yes
-
 <ul>
   {% for post in site.posts %}
     <li>
