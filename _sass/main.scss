@@ -21,6 +21,9 @@ body {
 
 header {
     margin: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
 }
 
 header h1 {
