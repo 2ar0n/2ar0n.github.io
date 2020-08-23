@@ -11,8 +11,8 @@ Now I did not want to make it too difficult for myself, so this page is simply h
 To start off with tinquering with the site, you don't want to depend on commiting/pushing to Github and have your site published to see the results. So instead serve your site locally first and play around. To not pollute your system with ruby/jekyll, use a container. On <a href="https://hub.docker.com/u/jekyll">DockerHub</a> you can find existing images with the required Jekyll/Bundler dependencies. Just mount the directory with the site source into the container and expose the port (Jekyll uses port 4000 as default). As a one-liner, this would work, assuming you already have docker set up on your system:
 
 ```bash
-# from the directory where your site is located
-$ docker run --rm --volume=$PWD:/srv/jekyll -p 4000:4000  -it jekyll/builder:3.8 jekyll serve
+# from the directory where your site source code is located
+$ docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages 
 ```
 
 Once the jekyll plugins are loaded and the site is built, you can access your page at `http://localhost:4000`. If your phone or other mobile device is connected to the same local network as your PC, you can also inspect how the page is rendered on mobile. Checking on different browsers is a good idea to make sure the experience is consistent.
