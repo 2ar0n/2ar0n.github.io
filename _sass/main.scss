@@ -2,7 +2,7 @@ html {
     height: 100%;
     background-repeat:no-repeat;
     background: rgb(212,169,246);
-    background: linear-gradient(0deg, rgba(212,169,246,1) 0%, rgba(144,144,252,1) 25%, rgba(0,212,255,1) 100%); 
+    background: linear-gradient(0deg, rgba(240,170,250,1) 0%, rgba(144,144,252,1) 25%, rgba(0,212,255,1) 100%); 
     background-attachment: fixed;
     font-family: "glacial_indifferenceregular", "Times New Roman";
 }
@@ -41,6 +41,38 @@ nav {
     bottom: 40px;
 }
 
+header { 
+  background: url("/assets/wave.svg");
+  background-size: 25px 20px; 
+  background-repeat: repeat-x;
+  background-color: transparent;
+
+  animation: move 25s linear infinite;
+  -webkit-animation: move 25s linear infinite;
+  animation-play-state: running;
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects;
+  // border-bottom: none;
+}
+
+@-webkit-keyframes move {
+from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
+@keyframe move {
+from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
 a {
     text-decoration: none;
 }
@@ -52,7 +84,7 @@ header a:hover {
 }
 
 main a {
-    color: rgb(144,144,252);
+    color: rgb(240,170,250);
 }
 main a:hover {
     color: black;
