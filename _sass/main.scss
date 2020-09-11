@@ -1,8 +1,14 @@
+:root {
+  --pink: #f0aafa;
+  --cyan: #00d4ff;
+  --purple: #9090ff;
+}
+
 html {
     height: 100%;
     background-repeat:no-repeat;
-    background: rgb(212,169,246);
-    background: linear-gradient(0deg, rgba(240,170,250,1) 0%, rgba(144,144,252,1) 25%, rgba(0,212,255,1) 100%); 
+    background: var(--cyan); 
+    background: linear-gradient(0deg, var(--pink) 0%, var(--purple) 25%, var(--cyan) 100%); 
     background-attachment: fixed;
     font-family: "glacial_indifferenceregular", "Times New Roman";
 }
@@ -80,16 +86,15 @@ header a:link, header a:visited {
     color: black;
 }
 header a:hover {
-    color: #f0aafa;
+    color: var(--pink);
 }
 
 main a {
-    border-bottom: 0.15em solid #f0aafa;
-    // padding-bottom: -0.15em;
+    border-bottom: 0.15em solid var(--pink);
     color: black;
 }
 main a:hover {
-    background-color: #f0aafa;
+    background-color: var(--pink);
 }
 
 main h2 {
