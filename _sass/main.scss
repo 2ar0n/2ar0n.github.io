@@ -84,10 +84,12 @@ header a:hover {
 }
 
 main a {
-    color: rgb(240,170,250);
+    border-bottom: 0.15em solid #f0aafa;
+    // padding-bottom: -0.15em;
+    color: black;
 }
 main a:hover {
-    color: black;
+    background-color: #f0aafa;
 }
 
 main h2 {
