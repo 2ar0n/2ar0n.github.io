@@ -92,6 +92,8 @@ header a:hover {
 
 .index {
     list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
 }
  
 .index li:before {
