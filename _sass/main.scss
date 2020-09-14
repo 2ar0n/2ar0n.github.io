@@ -37,6 +37,7 @@ header h1 {
     font-family: "glacial_indifferencebold";
     font-size: 80px;
     margin: 0;
+    width: 50px;
 }
 
 nav {
@@ -45,7 +46,8 @@ nav {
     padding-right: 10px;
     font-size: 25px;
     position: relative;
-    bottom: 40px;
+    bottom: 45px;
+    z-index: -1;
 }
 
 header { 
