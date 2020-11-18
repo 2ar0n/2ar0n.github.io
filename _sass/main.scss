@@ -2,6 +2,7 @@
     --black: #000000;
     --dark-grey: #A9A9A9;
     --almost-white: #FAFAFA;
+    --white: #FFFFFF;
 
     /* Light mode colors */
     --pink: #f0aafa;
@@ -9,9 +10,9 @@
     --purple: #9090ff;
 
     /* Dark mode colors */
-    --dark-pink: #461a4d;
+    --dark-pink: #81448C;
     --dark-blue: #00104f;
-    --dark-purple: #1a1a37;
+    --dark-purple: #461a4d;
 }
 
 /* Set default theme to light theme */
@@ -21,6 +22,7 @@
     --c-background-gradient-end: var(--pink);
     --c-text: var(--black);
     --c-accent: var(--pink);
+    --c-navbar: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +32,7 @@
         --c-background-gradient-end: var(--dark-pink);
         --c-text: var(--almost-white);
         --c-accent: var(--pink);
+        --c-navbar: var(--purple);
     }
 }
 
@@ -64,7 +67,8 @@ header h1 {
 }
 
 nav {
-    background: rgba(255, 255, 255, 0.6);
+    background: var(--c-navbar);
+    opacity: 0.5;
     text-align: right;
     padding-right: 10px;
     font-size: 25px;
