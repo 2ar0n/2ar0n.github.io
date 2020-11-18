@@ -42,12 +42,12 @@ html {
     background: var(--c-background); 
     background: linear-gradient(0deg, var(--c-background-gradient-end) 0%, var(--c-background-gradient-mid) 25%, var(--c-background) 100%); 
     background-attachment: fixed;
-    font-family: "glacial_indifferenceregular", "Times New Roman";
+    font-family: "Helvetica", "Times New Roman";
     color: var(--c-text);
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 960px;
     margin: auto;
 }
@@ -60,8 +60,7 @@ header {
 }
 
 header h1 {
-    font-family: "glacial_indifferencebold";
-    font-size: 80px;
+    font-size: 90px;
     margin: 0;
     width: 50px;
 }
@@ -73,7 +72,7 @@ nav {
     padding-right: 10px;
     font-size: 25px;
     position: relative;
-    bottom: 45px;
+    bottom: 60px;
     z-index: -1;
 }
 
@@ -93,19 +92,19 @@ header {
 
 @-webkit-keyframes move {
 from {
-    background-position: 2px 19px;
+    background-position: 2px 10px;
   }
   to {
-    background-position: 500px 19px;
+    background-position: 500px 10px;
   }
 }
 
 @keyframe move {
 from {
-    background-position: 2px 19px;
+    background-position: 2px 10px;
   }
   to {
-    background-position: 500px 19px;
+    background-position: 500px 10px;
   }
 }
 
@@ -134,6 +133,7 @@ header a:hover {
 }
 
 main {
+    line-height: 24px;
     padding: 10px;
 }
 
@@ -165,6 +165,7 @@ h2 + p {
     margin-bottom: 2px;
     margin-left: 10px; 
     font-size: 14px;
+    line-height: 20px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
