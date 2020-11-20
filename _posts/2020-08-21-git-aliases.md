@@ -3,7 +3,7 @@ layout: post
 author: Aaron
 ---
 
-I struggle to believe that it took me 4 years of working with `git` and misspelling `git checkout -b <new_branch>` to find you about [git aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases), allowing me to:
+I struggle to believe that it took me 4 years of working with `git` and misspelling `git checkout -b <new_branch>` to find out about [git aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases), allowing me to:
 
 ```bash
 $ git config --global alias.new "checkout -b"
