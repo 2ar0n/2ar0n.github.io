@@ -24,3 +24,6 @@ $ git push -u origin HEAD
 ```
 
 which avoids having to write out the full branch name on a new branch to push out to the remote.
+
+
+EDIT: I recently found out about another cool `git alias` on [this blog](https://carolynvanslyck.com/blog/2020/12/git-wip/).
