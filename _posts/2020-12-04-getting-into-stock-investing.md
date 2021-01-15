@@ -13,7 +13,7 @@ Having actively worked for a few years now, I've put enough money aside to start
 Before getting more into detail of my quest, I will list some ressources that help me on the way:
 
 - [mypersonalfinance.ch](https://www.mypersonalfinance.ch/): must-read blog that provides easy to read insights. Some stuff is Swizterland-related but the most investment information is still relevant
-- [Blogheads](https://www.bogleheads.org/wiki/EU_investing): the boglehead wiki, here the page specific for investors in Europe
+- [Bogleheads](https://www.bogleheads.org/wiki/EU_investing): the boglehead wiki, here the page specific for investors in Europe
 - [r/eupersonalfinance](https://www.reddit.com/r/eupersonalfinance/): subreddit dedicated to personal investments for Europeans
 - [JustETF](https://www.justetf.com): ETF search tool, useful without a premium account
 
@@ -22,5 +22,6 @@ Once the basic ideas are understood, check out different stock brokers, comparin
 ## Finding sustainable investments
 
 Investing money and making it grow is one thing, but - at least for myself - it mattered just as much that my money was used to support sustainable companies and the transition to renewable energy. Since I am thankfully not alone in this sight, recently many ESG (for **e**nvironmental, **s**ocial and **g**overnance) ETFs apperead and prospered. For instance, one of the big index providers MSCI started listing different [ESG ETFs](https://www.msci.com/esg-indexes). Some indicies are also designed to [align with the Paris Agreements](https://www.msci.com/www/blog-posts/aligning-with-the-paris/02152782499). JustETF also has [a page](https://www.justetf.com/en/how-to/invest-in-social-responsibility-europe.html) to find some of these.
+    background-color: var(--c-accent);
 
 Sounds good, right? It does until you start digging a bit deeper [into the detail](https://www.ipe.com/reports/etfs-for-esg-the-devil-in-the-detail-of-low-carbon-etfs/10033631.article) or look into the actual companies included into those indicies, which paint a different picture. I haven't found an ideal solution yet, but will stay on the lookout for new clean and sustainable investment opportunities.
