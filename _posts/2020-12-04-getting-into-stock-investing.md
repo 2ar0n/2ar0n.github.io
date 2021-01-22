@@ -4,7 +4,7 @@ author: Aaron
 ---
 
 
-Disclaimer I take no responsibility about the correctness or accuracy of any of the words and information presented here, I take this merely of a track of my progress. Citing another blogger: `Because I have no need of rigor to post on the internet, (or even a need to be correct) I’m going to post some of those intuitions here as I understand them.`.
+Disclaimer I take no responsibility about the correctness or accuracy of any of the words and information presented here, I take this merely of a track of my progress. Citing another blogger: `Because I have no need of rigor to post on the internet, (or even a need to be correct) I’m going to post some of those intuitions here as I understand them`.
 
 ## Getting started
 
@@ -22,6 +22,5 @@ Once the basic ideas are understood, check out different stock brokers, comparin
 ## Finding sustainable investments
 
 Investing money and making it grow is one thing, but - at least for myself - it mattered just as much that my money was used to support sustainable companies and the transition to renewable energy. Since I am thankfully not alone in this sight, recently many ESG (for **e**nvironmental, **s**ocial and **g**overnance) ETFs apperead and prospered. For instance, one of the big index providers MSCI started listing different [ESG ETFs](https://www.msci.com/esg-indexes). Some indicies are also designed to [align with the Paris Agreements](https://www.msci.com/www/blog-posts/aligning-with-the-paris/02152782499). JustETF also has [a page](https://www.justetf.com/en/how-to/invest-in-social-responsibility-europe.html) to find some of these.
-    background-color: var(--c-accent);
 
 Sounds good, right? It does until you start digging a bit deeper [into the detail](https://www.ipe.com/reports/etfs-for-esg-the-devil-in-the-detail-of-low-carbon-etfs/10033631.article) or look into the actual companies included into those indicies, which paint a different picture. I haven't found an ideal solution yet, but will stay on the lookout for new clean and sustainable investment opportunities.
