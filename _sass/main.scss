@@ -55,6 +55,7 @@ body {
 
 header {
     margin: 0;
+    margin-left: 10px;
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
@@ -65,14 +66,13 @@ header h1 {
     margin: 0;
     width: 50px;
     float: left;
+    margin-right: 20px;
 }
 
 nav {
-    text-align: right;
-    padding-right: 10px;
     font-size: 25px;
     margin-top: 25px;
-    float: right;
+    padding-top: 8px;
 }
 
 header h1 { 
@@ -116,14 +116,6 @@ a {
     padding-left: 0;
 }
  
-.index li:before {
-    color: var(--c-accent);
-    content: '# \0000a0';
-    font-size: 1.5em;
-    font-weight: bold;
-    float: left;
-}
-
 main {
     margin-right: 5px;
     margin-left: 10px;
@@ -147,7 +139,8 @@ a:hover {
     box-shadow: none;
 }
 
-main h2 {
+main li {
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
